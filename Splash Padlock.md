@@ -1,4 +1,4 @@
-Splash Padlock
+
 ion-view.padlock-view ion-content {
 	 background-color: #fff !important;
   	 border-radius: 40px 40px 0 0 !important; 
