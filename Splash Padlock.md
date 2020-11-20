@@ -55,7 +55,7 @@ ion-view.padlock-view [ng-click="padlockLogin()"]:after {
   	font-size: 18px;
   	background-color: #00A4A4;
   	color: #fff;
-    border-radius: 30x !important;  	
+    border-radius: 30px !important;  	
 	padding: 10px 15px;
 }
 
