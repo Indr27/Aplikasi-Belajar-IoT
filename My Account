@@ -12,25 +12,61 @@ ion-modal-view.customer-view.customer-layout1 ion-header-bar {
 
 ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] .button.button-positive-custom {
 	width: 302px;
-	top: 76px;
-  	margin: 15px 5% 0 5%;
+	top: 15px;
+ 	margin-bottom: 0;
+  	margin-right: 10px;
+  	margin-left: 7px;
   	border-radius: 15px;
   	background-color: #00A4A4 !important; 
+  	
 } 
 
-/* Rectangle 3 */
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] .button.button-positive-custom {
+  	visibility: none;
+}
 
-ion-modal-view.customer-view.customer-layout1 ion-content {
-	position: absolute;
-	width: 330px;
-	margin: 15px 5% 0 7%;
-	top: 119px;
-	background: #FFFFFF;
-	box-shadow: 0px -18px 97px rgba(0, 0, 0, 0.035), 0px -2.25388px 12.1459px rgba(0, 0, 0, 0.07);
-	border-radius: 14px;
+
+ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] .text-right {
+	visibility: none;
 
 }
 
-ion-modal-view.customer-view.customer-layout1 ion-content {
-  	visibility: hidden;	
+label.item.item-input.item-custom {
+  	widht:90%;
+  	margin: 5px 5%;
+  	border-radius: 15px;
+  	border: 2px solid #C4C4C4;
 }
+
+.ion-ios-person::before,
+.ion-locked::before {
+  	display: none !important;
+}
+
+
+ion-modal-view.customer-view.customer-layout1  [ng-click="displayForgotPasswordForm"]{
+  	text-align: center;
+  	visibility: none;
+	
+}
+
+
+
+
+ion-modal-view.customer-view.customer-layout1 .text-center {
+	visibility: visible;
+  	content: "Belum punya akun? Buat akun!" !important;
+  	text-align: center;
+  	width: 100%;
+  	margin: 195px 0;
+  	display: block;
+  	visibility: visible; 	
+  	font-weight: bold;
+  	font-size:	13px;
+  	
+}
+
+
+
+
+
