@@ -9,7 +9,6 @@ ion-modal-view.customer-view.customer-layout1 ion-header-bar {
   	position: absolute;
     z-index: 0;
  }
-
 ion-modal-view.customer-view.customer-layout1 [ng-show="display_login_form"] .button.button-positive-custom {
 	width: 302px;
 	top: 15px;
